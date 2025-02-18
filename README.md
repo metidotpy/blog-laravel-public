@@ -1,13 +1,15 @@
-# For run this project, at the first please clone it
+# A Simple Blog With Laravel
+
+### For run this project, at the first please clone it
 ---
-# Then go to the directory of project and run this commands:
+### Then go to the directory of project and run these commands:
 ```bash
 composer install
 npm i
 npm run build
 ```
 ---
-# Then run this commands for clear the cache:
+### Then run this commands for clear the cache:
 ```bash
 php artisan cache:clear
 php artisan config:clear
@@ -16,15 +18,15 @@ php artisan view:clear
 php artisan migrate
 ```
 ---
-# Then run this command for seed the default data:
+### Then run this command for seed the default data:
 ```bash
 php artisan db:seed
 ```
 ---
-# At the end just run the project and have fun :)
+### At the end just run the project and have fun :)
 ```bash
 php artisan serve
 ```
 ---
-### Wroted by Mehdi Radfar -> AKA "metidotpy"
-### This is a test project for [Gilasweb](https://gilasweb.ir)
+#### Wroted by Mehdi Radfar -> AKA "metidotpy"
+#### This is a test project for [Gilasweb](https://gilasweb.ir) I want to show it to my product owner :)))
