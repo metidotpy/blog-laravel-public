@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Detail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <!-- Burger menu icon -->
+            <div class="menu-toggle" onclick="toggleNav()">&#9776;</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Tags</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Health</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="post-detail">
+            <h1>Post Title</h1>
+            <div class="author">
+                <!-- Author avatar and name -->
+                <img class="author-avatar" src="https://via.placeholder.com/40" alt="Author Avatar">
+                <span>Written by John Doe</span>
+            </div>
+            <p class="date">Published on February 10, 2025</p>
+            <img src="https://via.placeholder.com/800x400" alt="Post Image">
+            <p>This is the full content of the post. You can add text, images, and other content here...</p>
+            <div class="tags">
+                <a href="#">#Science</a>
+                <a href="#">#Technology</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Simple Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

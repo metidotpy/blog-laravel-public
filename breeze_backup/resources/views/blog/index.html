@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <!-- Burger menu icon -->
+            <div class="menu-toggle" onclick="toggleNav()">&#9776;</div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Tags</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Health</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="blog-posts">
+            <!-- Post 1 -->
+            <div class="post">
+                <img src="https://via.placeholder.com/500" alt="Post Image">
+                <h2><a href="detail.html?id=1">Post Title 1</a></h2>
+                <div class="author">
+                    <!-- Author avatar and name -->
+                    <img class="author-avatar" src="https://static.vecteezy.com/system/resources/previews/002/002/403/non_2x/man-with-beard-avatar-character-isolated-icon-free-vector.jpg" alt="Author Avatar">
+                    <span>Author: John Doe</span>
+                </div>
+                <p class="summary">Summary of the post 1...</p>
+                <div class="tags">
+                    <a href="#">#Science</a>
+                    <a href="#">#Technology</a>
+                </div>
+                <a href="detail.html?id=1">Read more</a>
+            </div>
+
+
+            <!-- Post 2 -->
+            <div class="post">
+                <img src="https://via.placeholder.com/500" alt="Post Image">
+                <h2><a href="detail.html?id=2">Post Title 2</a></h2>
+                <p class="author">Author: Jane Smith</p>
+                <p class="summary">Summary of the post 2...</p>
+                <div class="tags">
+                    <a href="#">#Lifestyle</a>
+                    <a href="#">#Health</a>
+                </div>
+                <a href="detail.html?id=2">Read more</a>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">Next</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Simple Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
